@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         <div className={styles.image}>
-          <img src="/Plumbing.webp" alt="Plumber" />
+          <img loading="lazy" src="/Plumbing.webp" alt="Plumber" />
         </div>
       </div>
     </section>
