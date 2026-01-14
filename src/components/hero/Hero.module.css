@@ -44,6 +44,9 @@
 
 .image img {
   max-width: 420px;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: imageFadeIn 0.6s ease-out 0.3s forwards;
 }
 
 @keyframes heroFadeIn {
@@ -65,6 +68,13 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes imageFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
